@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jenkins">
+    <parameter name="browser" value="chrome"/>
+    <test name="FirstOne" preserve-order="false">
+        <classes>
+            <class name="Testing"/>
+        </classes>
+    </test>
+</suite>
+<!--
+<suite name="Parallel test suite" parallel="tests" thread-count="2">
+    <test name="Parrallel1">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="TestingForParallelTesting"/>
+        </classes>
+    </test>
+    <test name="Parrallel2">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="TestingForParallelTesting"/>
+        </classes>
+    </test>
+</suite>-->
